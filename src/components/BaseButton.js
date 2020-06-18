@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const BaseButton = styled.button`
-  color: #2f2f2f;
-  border: ${props => props.yellow ? 'none' : '1px solid var(----lightBlack)' };
+  color: var(--lightBlack);
+  border: ${props => props.yellow ? 'none' : '1px solid var(--lightBlack)' };
   background-color: ${props => props.yellow ? "var(--yellow)" : "transparent"};
   height: ${props => props.high ? "50px" : "37px"} ;
   border-radius: 4px;
