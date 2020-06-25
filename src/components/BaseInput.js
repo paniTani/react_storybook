@@ -8,6 +8,7 @@ const BaseInput = styled(Input)`
   width: 500px;
   margin: 0 auto;
   font-weight: 500;
+  border: 1px solid var(--yellow);
   ${space};
 `;
 

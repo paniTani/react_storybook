@@ -10,7 +10,7 @@ function App() {
       <BaseButton yellow>Base Yellow Button</BaseButton>
       <BaseButton>Base Button</BaseButton>
       <br/>
-      <BaseInput mt="20px"  />
+      <BaseInput mt="20px" />
     </div>
   );
 }
