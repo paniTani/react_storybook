@@ -1,6 +1,5 @@
 import React from 'react';
 import 'antd/dist/antd.css';
-// import logo from './logo.svg';
 import BaseButton from './components/BaseButton.js';
 import './App.css';
 import BaseInput from "./components/BaseInput";
@@ -11,8 +10,7 @@ function App() {
       <BaseButton yellow>Base Yellow Button</BaseButton>
       <BaseButton>Base Button</BaseButton>
       <br/>
-      <br/>
-      <BaseInput />
+      <BaseInput mt="20px"  />
     </div>
   );
 }
