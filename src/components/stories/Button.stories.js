@@ -17,6 +17,7 @@ export default {
     ~~~
   `,
     },
+    notes: 'You could add some documentation here!',
   },
 };
 
