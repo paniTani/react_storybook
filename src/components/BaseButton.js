@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { space } from 'styled-system'
 
 const BaseButton = styled.button`
   color: var(--lightBlack);
@@ -9,6 +10,7 @@ const BaseButton = styled.button`
   font-weight: 600;
   padding: 0 15px;
   transition: opacity 0.2s;
+  ${space};
   
   &:hover {
     opacity: 0.8;
