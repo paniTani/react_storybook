@@ -1,22 +1,12 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-// import { withInfo } from '@storybook/addon-info';
 import BaseButton from '../BaseButton.js';
 import '../../index.css';
 
 export default {
   title: 'Button',
   component: BaseButton,
-  // decorators: [withInfo],
   parameters: {
-  //   info: {
-  //     text: ` description or documentation about my component, supports markdown
-  //
-  //   ~~~js
-  //   <Button>Click Here</Button>
-  //   ~~~
-  // `,
-  //   },
     notes: 'You could add some documentation here!',
   },
 };
