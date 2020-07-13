@@ -4,7 +4,7 @@ import ButtonWithIcon from '../ButtonWithIcon.js';
 import '../../index.css';
 
 export default {
-  title: 'Button',
+  title: 'Base|Buttons/Inherited',
   component: ButtonWithIcon,
   parameters: {
     notes: 'You could add some documentation here!',

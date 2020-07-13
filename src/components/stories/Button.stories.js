@@ -4,7 +4,7 @@ import BaseButton from '../BaseButton.js';
 import '../../index.css';
 
 export default {
-  title: 'Button',
+  title: 'Base|Buttons/Base',
   component: BaseButton,
   parameters: {
     notes: 'You could add some documentation here!',
