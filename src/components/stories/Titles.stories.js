@@ -5,7 +5,8 @@ export default {
   title: 'Titles',
   component: H1,
   parameters: {
-    notes: 'You could add some documentation here!',
+    notes: 'Code example with vailable props:' +
+    '```<H1 yellow>Main title</H1>```',
   },
 };
 
