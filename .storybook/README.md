@@ -11,7 +11,7 @@ In the project directory, you can run:
 #### `yarn run storybook` or `yarn storybook`
 
 Runs the app in the development mode.<br />
-Opens [http://localhost:9090](http://localhost:9090) to view it in the browser automatically.
+Opens [http://localhost:9009](http://localhost:9009) to view it in the browser automatically.
 
 You will also see any lint errors in the console.
 
