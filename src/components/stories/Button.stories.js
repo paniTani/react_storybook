@@ -6,6 +6,7 @@ import '../../index.css';
 export default {
   title: 'Base|Buttons/Base',
   component: BaseButton,
+  decorators: [story => <div style={{ padding: '30px' }}>{story()}</div>],
   parameters: {
     notes: 'You could add some documentation here!',
   },
